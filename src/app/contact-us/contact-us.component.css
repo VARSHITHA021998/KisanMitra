@@ -1,0 +1,15 @@
+h1{
+    color:rgb(207, 47, 47);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    text-decoration-line: underline;
+}
+
+h2 {
+    background-color: rgb(198, 201, 22);
+}
+
+div{
+    background-color: rgb(172, 189, 18);
+}

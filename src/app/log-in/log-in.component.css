@@ -1,0 +1,95 @@
+.body{
+    background-image: url('../../assets/commonbck.jpg') ;
+    background-size: cover;
+    width:100%;
+    height: 700px;
+  }
+
+input{ display:inline;}
+.login-box{
+background: transparent;
+width:580px;
+margin: 50px 0px 0px 400px;
+color: black;
+font-size: 18;
+padding: 45px;
+border-radius: 10px;
+position: absolute;
+box-sizing: border-box;
+background: rgba(0,0,0,0.3);
+}
+
+.login-box input[type='radio']{
+float: left;
+clear: none;
+margin: 2px 0 0 2px;
+}
+
+#t {
+color: rgb(59, 81, 182);
+font-weight: bold;
+font-size: 25px;
+font-style: oblique;
+}
+
+.heading-title{
+font-size:20px;
+font-weight:bold;
+text-align:center;
+margin-bottom:20px;
+}
+
+.login-box label{
+display:block;
+margin-bottom:5px;
+}
+
+.login-box input[type='text'], .login-box input[type='password'], .login-box[type='number']{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+border-bottom: 2px solid green;
+font-family: sans-serif;
+}
+
+.button{
+display: inline-block;
+height: 30px;
+padding: 0 30px;
+color: #fff;
+background-color: #1eaedb;
+border-color: #1eaedb;
+line-height: 30px;
+letter-spacing: .1rem;
+text-transform: uppercase;
+border-radius: 4px;
+border: 1px solid #bbb;
+cursor: pointer;
+box-sizing: border-box;
+margin-left: 35%;
+}
+
+.link{
+margin-top:10px;
+}
+
+.radios{
+float:left;
+}
+
+.farmer{
+float: right;
+}
+
+@media only screen and (max-width: 480px) {
+.login-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top:30px;
+}
+}

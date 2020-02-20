@@ -1,0 +1,13 @@
+.about {
+    background-image: url(../../assets/commonbck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    color:rgb(207, 47, 47);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 55px;
+    text-decoration-line: underline;
+}
